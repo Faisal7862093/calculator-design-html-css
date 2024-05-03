@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #333;
+}
+div{
+    padding: 6px;
+
+}
+.mainbox{
+    
+    box-shadow: 12px 12px 70px rgb(0,0,0,0.20),12px 12px 68px rgb(0, 0,0,0.20),
+    inset -5px -5px 15px rgb(0, 0,0,0.5),
+    inset 5px 5px 15px rgb(0, 0,0,0.5);
+    position: relative;
+    min-width: 30vmin;
+    min-height: 40vmin;
+    background-color: #333;
+    
+    border-radius: 30px;  
+}
+
+button{
+    position: relative;
+    place-items: center;
+    border-radius: 10px;
+    width: 10vmin;
+    height: 10vmin;
+    background-color: #333;
+    box-shadow: 10px 20px 25px rgb(0,0,0,0.4),0px 0px 2px rgb(0, 0,0,0.75),
+    inset -8px 0 8px rgb(0, 0,0,0.15),
+    inset 0 -8px 8px rgb(0, 0,0,0.25);
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 8px;
+    color: white;
+}
+#mul{
+margin-left: 10px;
+}
+#sub{
+    margin-left: 10px;
+}
+#clear{
+    width: 23vmin;
+    background: #f00;
+}
+#equal{
+    background-color: #2196f3;
+    margin-left: 10px;
+}
+#plus{
+    height: 22vmin;
+    width: 40px;
+    position:absolute;
+    margin-left: 14px;
+
+}
+input{
+    position: relative;
+    height: 16vmin;
+    width: 51vmin;
+    border: none;
+    outline: none;
+    margin-top: 8px;
+    background: #a7af7c;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: right;
+    padding: 10px;
+    font-size: 6vmin;
+}
